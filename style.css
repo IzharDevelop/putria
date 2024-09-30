@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Center-align text within the body */
+    background-color: #333; /* Warna abu-abu gelap */
+    
+    
+}
+
+.container {
+    width: 80%; /* Set container width to 80% of the viewport */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center-align text within the container */
+}
+
+/* ... (rest of your CSS code) ... */
+
+table {
+    width: 50%; /* Set table width to 50% of its container */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin: 0 auto; /* Center the table horizontally */
+    background-color: #f0f0f0; /* Light gray background for the table */
+}
+
+td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #ccc; /* Add a subtle border to cells */
+    text-align: center; /* Center-align text within table cells */
+    background-color: #e0e0e0; /* Slightly darker gray background for the photo */
+}
+
+.profile-picture {
+    /* ... (other styles) ... */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Menambahkan margin bawah 20px */
+}
+
+.button {
+    background-color: #4CAF50; /* Example background color */
+    color: white; /* Example text color */
+    padding: 10px 20px; /* Example padding */
+    border: none; /* Example border */
+    cursor: pointer; /* Example cursor */
+}
+
+.olympiad-info table { /* Or target the specific table if needed */
+    /* ... (other table styles) ... */
+    margin-bottom: 20px; /* Add 20px spacing below the table */
+}
+
+/* ... (other CSS styles) ... */
+
+.olympiad-info table {
+    /* ... (other table styles) ... */
+    border: 2px solid #ccc; /* Add a 2px solid gray border to the table */
+    background-color: #f0f0f0; /* Light gray background for the table */
+}
+
+.profile-picture {
+    /* ... (other photo styles) ... */
+    border: 5px solid #007bff; /* Add a 5px solid blue border to the photo */
+}
+
+h1 {
+    color: white; /* atau #ffffff */
+}
+h2 {
+    color: white; /* atau #ffffff */
+}
+
+table {
+    border-collapse: collapse; /* Menggabungkan border sel tabel */
+    width: 100%; /* Membuat tabel memenuhi lebar container */
+}
+
+table td, table th {
+    border: 1px solid #ddd; /* Menambahkan border pada sel tabel */
+}
+
