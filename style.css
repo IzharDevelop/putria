@@ -6,6 +6,46 @@ body {
     
 }
 
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+
+}
+
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #333;
+}
+
+header nav ul li img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+nav ul { /* Atau  nav { jika flexbox diterapkan pada <nav> */
+    display: flex;
+    align-items: flex-start; /* Untuk meratakan tombol ke atas */
+  }
+  
+  nav ul li:last-child { /*  Atau  nav li:last-child { */
+    margin-left: auto; 
+    margin-top: 10px; /* Optional, untuk memberi jarak dari atas */
+  }
+  
+
 .container {
     width: 80%; /* Set container width to 80% of the viewport */
     margin: 0 auto; /* Center the container horizontally */
